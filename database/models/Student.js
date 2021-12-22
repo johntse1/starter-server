@@ -20,7 +20,7 @@ const Student = db.define("student", {
   },
   email:{
     type: Sequelize.STRING,
-    allowNull:true
+    allowNull:false
   },
   imgurl:{
     type: Sequelize.STRING,
